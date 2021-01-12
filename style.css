@@ -1,0 +1,167 @@
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+body {
+  background: #eee;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.container-fluid{
+  background-color:cornflowerblue;
+  margin-bottom: 20px;
+}
+
+/* class Product*/
+.product{
+  display: flex;
+} 
+.product {
+  border: 1px solid #eee;
+  margin: 20px 0;
+  width: 100%;
+  /*height: px;*/
+  /*position: relative;*/
+}
+
+
+.refArticle{
+  font-size: large;
+}
+
+.descriptionRef{
+  font-size: x-large;
+  padding-left: 20px;  
+ 
+}
+
+.productdetail{
+  padding-left: 20px;
+}
+
+/*   like button  */
+
+i {
+  color:grey;  
+  font-size: 30px;
+}
+
+/*
+.fa:hover{
+  color: blue;
+}
+*/
+.qt,
+.qt-plus,
+.qt-minus {
+  display: block;
+  float: left;
+}
+
+
+.product header,
+.product .content {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-style: none none solid none;
+  float: left;
+}
+
+
+.product footer .price {
+  background: #fcfcfc;
+  color: #000;
+  float: right;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 49px;
+  margin: 0;
+  padding: 0 30px;
+}
+
+.product footer .fullPrice {
+  background: #53b5aa;
+  color: #fff;
+  float: right;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 49px;
+  margin: 0;
+  padding: 0 30px;
+
+}
+
+
+.qt-plus,
+.qt-minus {
+  background: #fcfcfc;
+  border: none;
+  font-size: 30px;
+  font-weight: 300;
+  height: 100%;
+  padding: 0 20px;
+ 
+}
+
+.qt-plus:hover,
+.qt-minus:hover {
+  background: #53b5aa;
+  color: #fff;
+  cursor: pointer;
+}
+
+.qt-plus {
+  line-height: 50px;
+}
+
+.qt-minus {
+  line-height: 47px;
+}
+.qt {
+  font-size: 19px;
+  line-height: 50px;
+  width: 70px;
+  text-align: center;
+}
+
+
+.product .content {
+  box-sizing: border-box;
+  /*height: 20px;*/
+  padding: 0 20px;
+  width: 75%;
+}
+
+/* Remove button */ 
+.remove{
+  background-color: #53b5aa;
+  padding:10px;
+  margin: 10px;
+}
+
+
+.totalCart h3{
+text-align: center;
+}
+
+
+
+/**********************************/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+
+
+
+.like__btn {
+  padding: 10px 15px;
+  background:  #53b5aa;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 5px;
+  color: #e8efff;
+  outline: none;
+  border:none;
+  border-color:  #53b5aa;
+  cursor: pointer;
+}
